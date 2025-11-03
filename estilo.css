@@ -48,5 +48,14 @@ ul li:hover{background-color:#ec2ccc;}
 ul li span{width: 80%;}
 ul li i{width: 10%; text-align: center;}
 
+/* Estilos para a tarefa marcada como concluída */
+ul li.checked {
+  background-color: #d1d1d1; /* Um cinza para diferenciar */
+  text-decoration: line-through; /* Risca o texto da tarefa */
+  color: #555;
+}
 
-
+/* Muda a cor do ícone de check quando a tarefa está concluída */
+ul li.checked i.fa-check-circle {
+  color: #28a745; /* Um tom de verde */
+}
